@@ -1,0 +1,4 @@
+import numpy as np
+with open('C:/Users/Egor/Documents/new_test.txt','r') as file:
+    data = np.loadtxt('C:/Users/Egor/Documents/new_test.txt', delimiter = " ")
+    print(str(sum(data))[0 : 11])
